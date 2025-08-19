@@ -15,7 +15,7 @@ import cv2
 import shutil
 from twilio.rest import Client
 account_sid="AC1dde6131bfcb3e1"
-auth_token="8a8a90eaa07bab258e551"
+auth_token="8a8a9551"
 client=Client(account_sid, auth_token)
 
 import numpy as np
@@ -289,4 +289,5 @@ def logout():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
