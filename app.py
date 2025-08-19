@@ -14,8 +14,8 @@ import sqlite3
 import cv2
 import shutil
 from twilio.rest import Client
-account_sid="AC1dde6131bf9b9e4c7c335e897a7cb3e1"
-auth_token="8a8a90ea76e54cd4ffea07bab258e551"
+account_sid="AC1dde6131bf9b9e4c7a7cb3e1"
+auth_token="8a8a90ea76e54c7bab258e551"
 client=Client(account_sid, auth_token)
 
 import numpy as np
@@ -195,8 +195,8 @@ def image():
                     "Rotate your cotton plants yearly to prevent re-infection next year.", 
                     "Use copper Fungicides"]
                     client.api.account.messages.create(
-                                            to="+91-7406435868",
-                                            from_="+13614208344",
+                                            to="+91-74068",
+                                            from_="+1361424",
                                             body="Aphids_cotton_leaf_Disease")
                     
                     
@@ -210,7 +210,7 @@ def image():
                     "Spray insecticides such as Emamectin benzoate 5 SG @ 0.4 g/l,Spinosad 45 SC @ 0.3 ml/l,Chlorantraniliprole 18.5 SC @ 0.4 ml/I.organophosphates", 
                     "carbametes during the seedliing stage."]
                     client.api.account.messages.create(
-                                            to="+91-7406435868",
+                                            to="+91-7468",
                                             from_="+13614208344",
                                             body="Army_worm_cotton_leaf_Disease")
                     
@@ -226,8 +226,8 @@ def image():
                     "carbametes during the seedliing stage.",
                     "Seed treatment with authorized antibiotics and seed dressing with copper oxychloride"]
                     client.api.account.messages.create(
-                                            to="+91-7406435868",
-                                            from_="+13614208344",
+                                            to="+91-7406868",
+                                            from_="+13344",
                                             body="Bacterial_Blight")
                     
                 elif str_label == 'Healthy_leaf':
@@ -248,8 +248,8 @@ def image():
                     rem1 = [" Bonide Sulfur Plant Fungicide and BONIDE Copper Fungicide Dust can be sprayed",
                     "Treat organically with copper spray."]
                     client.api.account.messages.create(
-                                            to="+91-7406435868",
-                                            from_="+13614208344",
+                                            to="+91-74868",
+                                            from_="+1361344",
                                             body="Powdery_Mildew")
                     
 
@@ -262,7 +262,7 @@ def image():
                     "Treat organically with copper spray.",
                     "Use chemical fungicides,the best of which for cotton is chlorothalonil."]
                     client.api.account.messages.create(
-                                            to="+91-7406435868",
+                                            to="+91-74068",
                                             from_="+13614208344",
                                             body="Target_spot")
                     
@@ -273,7 +273,7 @@ def image():
                     rem = "The remedies for Fussarium_wilt are: "
                     rem1 = [" Mycostop is a biological fungicide that will safely protect crops against wilt caused by Fusarium."]
                     client.api.account.messages.create(
-                                            to="+91-7406435868",
+                                            to="+91-7468",
                                             from_="+13614208344",
                                             body="Fussarium_wilt")
 
@@ -289,3 +289,4 @@ def logout():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
